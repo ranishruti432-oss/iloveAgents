@@ -1,0 +1,51 @@
+name: Documentation Issue
+description: Report errors or suggest improvements to project documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our documentation!
+
+  - type: dropdown
+    id: doc_type
+    attributes:
+      label: Type of documentation issue
+      options:
+        - Incorrect information
+        - Missing documentation
+        - Unclear instructions
+        - Broken link
+        - Typographical error
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Explain what is incorrect or missing.
+      placeholder: Describe the documentation problem...
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation location
+      description: Provide the file name, section, or URL.
+      placeholder: README.md, installation guide, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: How can we improve this documentation?
+      placeholder: Suggest a correction or improvement...
+    validations:
+      required: false
