@@ -1,0 +1,46 @@
+name: Code or Project Improvement
+description: Suggest improvements to existing functionality or code.
+title: "[Improvement]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us make the project better!
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current behavior
+      description: Explain how the project works currently.
+      placeholder: Describe the current behavior...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed improvement
+      description: Explain what you would like to improve.
+      placeholder: Describe your proposed change...
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Why is this improvement useful?
+      description: Explain how this change will help users or contributors.
+      placeholder: Describe the expected benefits...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add examples, screenshots, or references if applicable.
+      placeholder: Any additional information...
+    validations:
+      required: false
