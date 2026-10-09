@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Discussions
+    url: https://github.com/ranishruti432-oss/iloveAgents/discussions
+    about: Ask questions or discuss ideas with the community.
+  - name: 🔐 Security Vulnerability
+    url: https://github.com/ranishruti432-oss/iloveAgents/security/advisories/new
+    about: Privately report security vulnerabilities instead of posting them publicly.
